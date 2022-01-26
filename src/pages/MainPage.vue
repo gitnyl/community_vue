@@ -4,7 +4,6 @@
 </template>
 
 <script>
-//https://tailwindui.com/preview
 import Navbar from './common/Navbar'
 import DarkNavLayout from "@/pages/common/DarkNavLayout"
 import Table from "./common/Table"
