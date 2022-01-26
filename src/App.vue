@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <main-page></main-page>
+  <Abed msg="ABED"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Abed from './components/Abed.vue'
+import MainPage from "@/pages/MainPage";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Abed,
+    MainPage
   }
 }
 </script>
